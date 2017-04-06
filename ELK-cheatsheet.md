@@ -15,7 +15,7 @@ Default for the VM is 2 GB, but increase this if your host system has more RAM t
 * Password: logstasher (recommend changing with passwd)
 
 ### Start and Stop ELK Services
-Recent versions of Ubuntu and Debian use systemd and systemctl command to start and stop services. The DEB install configures the services, and you can start and stop them individuall with the following commands:
+Recent versions of Ubuntu and Debian use systemd and systemctl command to start and stop services. The DEB install configures the services to automatically start (not 100% reliable), and you can start and stop them manually with the following commands. If you make any signficiant config changes, you will need to restart the relevant Elastic component(s).
 ```
 sudo systemctl start elasticsearch.service
 sudo systemctl start logstash.service
