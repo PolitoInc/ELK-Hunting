@@ -35,8 +35,6 @@ sudo systemctl stop kibana.service
 * Management - configure index patterns; if X-Pack is installed, configure users and roles
 
 ## Elasticsearch Commands
-
-### E
 Edit the commands, hostnames, ports, etc. as needed based on your ELK environment. 
 
 ### Display a List of Elasticsearch Indices
@@ -50,14 +48,16 @@ This command deletes all Filebeat indices from Elasticsearch. You can specify a 
 curl -XDELETE http://localhost:9200/filebeat-*
 ```
 
-# Additioanl ELK Documentation
-
-### Additional ELK Cheat Sheets 
-* Kibana and ElasticSearch Cheat Sheet v1.0 by @cyb3rops and @blubbfiction: https://drive.google.com/file/d/0B2S_IOa0MiOHWndxWFRiUHNoNW8/view
+## Additional ELK Documentation
 
 ### Official Elastic Stack Docs
 * https://www.elastic.co/guide/index.html
 
-# Elastic Cloud
+### ELK Cheat Sheets
+* Kibana and ElasticSearch Cheat Sheet v1.0 by @cyb3rops and @blubbfiction: https://drive.google.com/file/d/0B2S_IOa0MiOHWndxWFRiUHNoNW8/view
+* A Useful Elasticsearch Cheat Sheet in Times of Trouble: https://logz.io/blog/elasticsearch-cheat-sheet/
+
+
+## Elastic Cloud
 * Free 14-day trial: https://www.elastic.co/cloud/as-a-service
 * Pricing: https://www.elastic.co/cloud/as-a-service/pricing
