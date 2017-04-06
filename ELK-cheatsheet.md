@@ -66,7 +66,19 @@ curl -XDELETE http://localhost:9200/filebeat-*
 * Kibana and ElasticSearch Cheat Sheet v1.0 by @cyb3rops and @blubbfiction: https://drive.google.com/file/d/0B2S_IOa0MiOHWndxWFRiUHNoNW8/view
 * A Useful Elasticsearch Cheat Sheet in Times of Trouble: https://logz.io/blog/elasticsearch-cheat-sheet/
 
-
 ## Elastic Cloud
 * Free 14-day trial: https://www.elastic.co/cloud/as-a-service
 * Pricing: https://www.elastic.co/cloud/as-a-service/pricing
+
+## Threat Hunting with Logs
+
+### Threat Hunting with ELK
+
+### Threat Hunting with Sysmon
+* Mark Russinovich - How to Go from Responding to Hunting with Sysinternals Sysmon (RSA): https://www.rsaconference.com/events/us17/agenda/sessions/7516-How-to-Go-from-Responding-to-Hunting-with-Sysinternals-Sysmon
+* https://cyberwardog.blogspot.com/2017/04/chronicles-of-threat-hunter-hunting-for.html
+
+### Log Cheatsheets
+* Malware Archaeology has excellent cheaatsheets for Windows logging, Splunk, Windows log auditing, and PowerShell logging: https://www.malwarearchaeology.com/cheat-sheets
+
+
