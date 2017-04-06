@@ -39,8 +39,12 @@ sudo systemctl stop kibana.service
 * Management - configure index patterns; if X-Pack is installed, configure users and roles
 
 ## Elasticsearch Commands
-Edit the commands, hostnames, ports, etc. as needed based on your ELK environment. 
+Edit the commands, hostnames, ports, etc. as needed based on your ELK environment. If X-Pack is installed and configured, you may need to provide credentials to run the command / access the URL.
+
 * Elasticsearch default port: 9200
+
+### Check If Elasticsearch Is Running:
+http://localhost:9200/
 
 ### Display a List of Elasticsearch Indices
 http://localhost:9200/_cat/indices?pretty
