@@ -1,6 +1,9 @@
 # ELK-Hunting
 Threat Hunting with ELK Workshop (InfoSecWorld 2017)
 
+## Slides
+* https://drive.google.com/file/d/0Bw9IuzQzV-koeVNrRmt6TkxYY1k/view?usp=sharing
+
 ## Download ELK VM
 * Will be posted after workshop
 
