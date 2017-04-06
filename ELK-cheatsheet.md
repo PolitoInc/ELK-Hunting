@@ -3,7 +3,12 @@
 Notes, sample commands, and URLs for the ELK VM provided during the workshop. Many of the basic commands will work in other ELK clusters including Elastic Cloud, edit them as needed. Disclaimer: This is a work in progress.
 
 ## ELK VM
-Filebeat 5.3's new Apache2 module was used to ship sample Apache2 logs from a web server (hosting a Drupal site) to Elasticsearch. This includes a prebuilt Apache2 Dashboard and utilizes the geoip and user-agent Elasticsearch plugins. Manually search the logs, use the Apache2 Dashboard, and build your own visualizations and dashboards to identify potentially malicious events in the Apache2 logs.
+
+### Introduction
+This ELK VM is a self-contained, single-node ELK cluster exported as an OVA from VirtualBox. It can be imported into VirtualBox or VMware Workstation/Fusion. Elasticsearch, Logstash, Filebeat, and Kibana have been installed. Filebeat 5.3's new Apache2 module was used to ship sample Apache2 logs from a web server (hosting a Drupal site) to Elasticsearch. This includes a prebuilt Apache2 Dashboard and utilizes the geoip and user-agent Elasticsearch plugins. Manually search the logs, use the Apache2 Dashboard, and build your own visualizations and dashboards to identify potentially malicious events in the Apache2 logs.
+
+### RAM
+Default for the VM is 2 GB, but increase this if your host system has more RAM to spare. It needs as much RAM as possible.
 
 ### Credentials
 * Username: logstasher
@@ -21,15 +26,21 @@ sudo systemctl stop elasticsearch.service
 sudo systemctl stop logstash.service
 sudo systemctl stop filebeat.service
 sudo systemctl stop kibana.service
-
 ```
 
-## ELK Commands
+### Kibana
+* Discover tab - search your logs
+* Visualize tab - build and load Visualizations of your logs
+* Dashboard - build and load Dashboards made out of Visualizations
+* Management - configure index patterns; if X-Pack is installed, configure users and roles
 
+## Elasticsearch Commands
+
+### E
 Edit the commands, hostnames, ports, etc. as needed based on your ELK environment. 
 
 ### Display a List of Elasticsearch Indices
-/_cat/indices?pretty
+http://localhost:9200/_cat/indices?pretty
 
 ### Delete Index (Example)
 Warning: please use extreme caution when deleting Elasticsearch indices.
@@ -37,5 +48,16 @@ Warning: please use extreme caution when deleting Elasticsearch indices.
 This command deletes all Filebeat indices from Elasticsearch. You can specify a particular index to delete or use a wildcard.
 ```
 curl -XDELETE http://localhost:9200/filebeat-*
-
 ```
+
+# Additioanl ELK Documentation
+
+### Additional ELK Cheat Sheets 
+* Kibana and ElasticSearch Cheat Sheet v1.0 by @cyb3rops and @blubbfiction: https://drive.google.com/file/d/0B2S_IOa0MiOHWndxWFRiUHNoNW8/view
+
+### Official Elastic Stack Docs
+* https://www.elastic.co/guide/index.html
+
+# Elastic Cloud
+* Free 14-day trial: https://www.elastic.co/cloud/as-a-service
+* Pricing: https://www.elastic.co/cloud/as-a-service/pricing
