@@ -29,6 +29,10 @@ sudo systemctl stop kibana.service
 ```
 
 ### Kibana
+* Default port: 5601
+* Access Kibana in web browser (Chrome recommended): http://localhost:5601
+* View Kibana status: http://localhost:5601/status
+
 * Discover tab - search your logs
 * Visualize tab - build and load Visualizations of your logs
 * Dashboard - build and load Dashboards made out of Visualizations
@@ -36,6 +40,7 @@ sudo systemctl stop kibana.service
 
 ## Elasticsearch Commands
 Edit the commands, hostnames, ports, etc. as needed based on your ELK environment. 
+* Elasticsearch default port: 9200
 
 ### Display a List of Elasticsearch Indices
 http://localhost:9200/_cat/indices?pretty
