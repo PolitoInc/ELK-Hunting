@@ -1,4 +1,4 @@
-# Threat Hunting wtih ELK Resources
+# Threat Hunting with ELK Resources
 
 Curated list of log posts, presentations, how to guides, tools, scripts, and other resources related to Threat Hunting with the ELK stack. Links will be updated and annotated over time.
 
