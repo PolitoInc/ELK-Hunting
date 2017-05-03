@@ -1,6 +1,6 @@
 # Threat Hunting with ELK Resources
 
-Curated list of log posts, presentations, how to guides, tools, scripts, and other resources related to Threat Hunting with the ELK stack. Links will be updated and annotated over time.
+Curated list of blog posts, presentations, how to guides, tools, scripts, and other resources related to Threat Hunting with the ELK stack. Links will be updated and annotated over time.
 
 ## Hunting with ELK and Beats
 * https://www.peerlyst.com/posts/security-monitoring-and-attack-detection-with-elasticsearch-logstash-and-kibana-martin-boller
@@ -27,7 +27,7 @@ Curated list of log posts, presentations, how to guides, tools, scripts, and oth
   * https://medium.com/@lennartkoopmann/explaining-and-adapting-tays-sysmon-configuration-27d9719a89a8
 * https://github.com/ion-storm/sysmon-config/blob/master/sysmonconfig-export.xml
 
-## Detecting Mimikatz
+## Detecting Mimikatz and Advanced Credential Attacks
 * https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for.html
 * https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for_22.html
 
@@ -35,7 +35,7 @@ Curated list of log posts, presentations, how to guides, tools, scripts, and oth
 * https://www.elastic.co/guide/en/logstash/current/plugins-filters-geoip.html
 * https://www.elastic.co/blog/geoip-in-the-elastic-stack
 
-## Background on Ascending Order Warning
+## Background on Kibana Ascending Order Warning
 * https://github.com/elastic/elasticsearch/issues/17614
 
 ## Securing Your ELK Stack
