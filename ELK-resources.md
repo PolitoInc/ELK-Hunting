@@ -1,6 +1,6 @@
 # Threat Hunting with ELK Resources
 
-Curated list of blog posts, presentations, how to guides, tools, scripts, and other resources related to Threat Hunting with the ELK stack. Links will be updated and annotated over time.
+Curated list of blog posts, presentations, how to guides, tools, scripts, and other resources related to Threat Hunting with the ELK stack. Links will be updated and annotated over time. 
 
 ## Hunting with ELK and Beats
 * https://www.peerlyst.com/posts/security-monitoring-and-attack-detection-with-elasticsearch-logstash-and-kibana-martin-boller
