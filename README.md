@@ -2,7 +2,7 @@
 Threat Hunting with ELK Workshop (InfoSecWorld 2017 and TBD)
 
 ## Slides
-* https://drive.google.com/file/d/0Bw9IuzQzV-koeVNrRmt6TkxYY1k/view?usp=sharing
+* Contact us if you would like a copy. 
 
 ## Download ELK VM
 * Contact us if you would like a copy. Alternatively, simply install the ELK stack in a Linux distro of your choice (bare metal or VM).
@@ -13,6 +13,6 @@ Threat Hunting with ELK Workshop (InfoSecWorld 2017 and TBD)
 
 ## Credits
 Sample data from:
-* http://rabidio.com
+* http://rabidio.com/
 * http://www.secrepo.com/
 * http://www.malware-traffic-analysis.net/
